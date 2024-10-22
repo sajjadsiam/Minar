@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*
+
+Hi, I am Sajjad Siam.
+
+For Hiring me
+
+Please Contact me via:
+
+Email: sajjadsiam@yahoo.com
+Telegram: @sajjadsiam
+LinkedIn: @sajjadsiam
+WhatsApp: +8801787912976
+
+Hope Enjoy the video.....
+
+*/
+
+body {
+  background-image: url('img/bg.png');
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  opacity: 90%;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2em;
+  color: #359381;
+  pointer-events: none;
+  margin-right: 170px;
+}
+
+.navigation {
+  text-decoration: none;
+  color: #359381;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #359381;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+  background-color: #359381;
+  color: #fff;
+}
+
+.parallax {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#text {
+  position: absolute;
+  font-size: 7em;
+  color: #fff;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3), 6px 6px 10px rgba(0, 0, 0, 0.2),
+    9px 9px 15px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.3cm;
+}
+
+.parallax img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.sec {
+  position: relative;
+  background: #166668;
+  padding: 100px;
+}
+
+.sec h2 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.sec p {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 300;
+}
